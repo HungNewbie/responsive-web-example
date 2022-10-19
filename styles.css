@@ -1,0 +1,79 @@
+body {
+    background-color: beige;
+    text-align: center;
+    font-size: 16px;
+}
+
+.menu {
+    display: flex;
+    align-items: flex-start;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 0px;
+}
+
+.menu li a {
+    list-style: none;
+    color: #643564;
+    margin: 0.625rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.menu  li a:hover{
+    color: red;
+}
+
+header {
+    color: #635756;
+    background-color: azure;
+}
+
+#about {
+    background-color: #4301;
+}
+
+.picture {
+    margin: 0 auto;
+    align-items: center;
+    justify-content:space-around;   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.pic {
+    width: 25%;
+    padding: 1.5%;
+    justify-content:space-around;   
+}
+
+.pic img {
+    height: 15.625rem;
+}
+
+.menu, footer {
+    background-color: #875335;
+}
+
+#join {
+    background-color: #265675;
+    color:aliceblue;
+}
+
+@media only screen and (max-width: 1048px) {
+    .pic {
+      width: 100%;    
+    }
+  }
+
+  @media only screen and (max-width: 640px) {
+    
+    .menu {
+        display: flex;
+        justify-content:center; 
+    }
+}
+
+  
